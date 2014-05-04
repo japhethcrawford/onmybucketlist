@@ -1,5 +1,5 @@
 // You'll need a single TembooSession object in your code, eg:
-var tsession = require("temboo/core/temboosession");
+var tsession = require("node_modules/temboo/core/temboosession");
 var session = new tsession.TembooSession("japhethcrawford", "onMyBucketList", "3ff0e63ebb2e4c499fa9e52b7d4da4ef");
 
 var Twitter = require("temboo/Library/Twitter/Search");
