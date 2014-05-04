@@ -1,6 +1,6 @@
 'use strict';
 
-(function (){
+/* (function (){ */
 	
 // You'll need a single TembooSession object in your code, eg:
 var tsession = require("temboo/core/temboosession");
@@ -27,7 +27,7 @@ tweetsChoreo.execute(
     function(error){console.log(error.type); console.log(error.message);}
 );
 	
-})();
+/* })(); */
 
 
 
