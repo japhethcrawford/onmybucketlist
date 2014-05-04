@@ -3,7 +3,7 @@
 (function (){
 	
 // You'll need a single TembooSession object in your code, eg:
-var tsession = require("temboo/core/temboosession");
+/* var tsession = require("temboo/core/temboosession"); */
 var session = new tsession.TembooSession("appTHEList", "#OnMyBucketList Stream", "aNPqVfiKcbXgzM0dddPti6Nii");
 
 var Twitter = require("temboo/Library/Twitter/Search");
